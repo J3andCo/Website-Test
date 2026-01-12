@@ -8,18 +8,47 @@
     html, body {
       height: 50%;
       margin: 0;
+      font-family: Arial, sans-serif;
     }
 
     body {
       background-image: url("Sae2.jpg");
       background-size: contain;
-      background-position: center;
+      background-position: center top;
       background-repeat: no-repeat;
       background-color: black;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      padding: 40px 0;
+      text-align: center;
+      color: white;
+      background: rgba(0, 0, 0, 0.4); /* readability overlay */
+    }
+
+    .overlay h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 0.15em;
+    }
+
+    .overlay p {
+      margin-top: 10px;
+      font-size: 1rem;
+      opacity: 0.9;
     }
   </style>
 </head>
 
 <body>
+
+  <div class="overlay">
+    <h1>SKEITHRON</h1>
+    <p>Experimental Sound • Visual • Code</p>
+  </div>
+
 </body>
 </html>
